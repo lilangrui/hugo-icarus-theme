@@ -1,8 +1,8 @@
-baseurl = "https://example.org/"
-languageCode = "en-us"
-title = "Icarus"
+baseurl = "http://lilangrui.com/"
+languageCode = "zh-CN"
+title = "叮叮铛"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "spf13"
+disqusShortname = "朗睿"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
@@ -19,15 +19,15 @@ themesDir = "../.."
 
 [params]
     # Tell me who you are
-    author = "John Doe"
-    bio = "Blogger - Programmer - Gopher"
+    author = "朗睿"
+    bio = "学生 - 乐高爱好者 - 智能机器人"
     location = "Earth"
-    site_description = ""
+    site_description = "做更好的自己"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
-    gravatar = "you@example.com"
+    gravatar = "lilangrui@126.com"
     logo = "css/images/logo.png"
     disable_mathjax = false # set to true to disable MathJax
 
@@ -38,8 +38,8 @@ themesDir = "../.."
     date_format = "2006-01-02"
 
     # Add custom assets with their paths relative to the static folder
-	custom_css = []
-	custom_js  = []
+    custom_css = []
+    custom_js  = []
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
@@ -49,29 +49,29 @@ themesDir = "../.."
 # and "Tags" / "Categories" after them.
 [[params.menu]]
     before = true
-    label  = "Home"
+    label  = "首页"
     link   = "/"
 
 [[params.menu]]
-    before = false
-    label  = "Tags"
+    before = true
+    label  = "标签"
     link   = "tags/"
 
 [[params.menu]]
-    before = false
-    label  = "Categories"
+    before = true
+    label  = "分类"
     link   = "categories/"
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = "https://github.com/digitalcraftsman"
+    follow_button = "https://github.com/lilangrui"
 
 
 [social]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    github          = "digitalcraftsman"
+    github          = "lilangrui"
     gitlab          = ""
     bitbucket       = ""
     jsfiddle        = ""
@@ -98,7 +98,8 @@ themesDir = "../.."
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "spf13"
+    twitter         = ""
+    weibo           = "lilangrui"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
